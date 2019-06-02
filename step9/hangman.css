@@ -1,0 +1,12 @@
+p, h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 2em;
+}
+
+input[type="submit"] {
+    width: 6em;
+}
+
