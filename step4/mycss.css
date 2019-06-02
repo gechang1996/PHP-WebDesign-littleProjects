@@ -1,0 +1,130 @@
+html, body, header, footer, hgroup, nav, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img {
+margin: 0;
+padding: 0;
+font-size: 100%;
+vertical-align: baseline;
+border: 0;
+}
+
+
+header{
+    background-color: #3f3622;
+    color:white;
+    width: 650px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+nav a:link{
+    color:white;
+}
+nav a:visited{
+    color:gray;
+}
+
+
+nav{
+    margin-right:0.5em;
+    text-align: right;
+    color:white;
+
+}
+h1{
+    font-size:300%;
+    text-align:center;
+    font-family: "Arial",sans-serif;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+body{
+    width: 650px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-image: url(cave-background.jpg);
+    background-color: black;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin-bottom: 2em;
+
+}
+article{
+    background-color: white;
+    text-align: center;
+}
+#pic1 figure img{
+    border: 2px solid black;
+    padding:0.5em;
+    margin-top: 1em;
+
+}
+#last{
+    font-family: "Arial",sans-serif;
+    font-weight: 500;
+    font-size:140%;
+    padding-top:0.5em;
+    padding-bottom: 0.5em;
+
+}
+#pic1 p{
+    font-size:140%;
+    margin-bottom: 0.1em;
+    font-family: "Arial",sans-serif;
+    font-weight: 500;
+}
+#link2 p{
+    padding-bottom:1em;
+}
+#link2 a:link{
+    color:#3f3622;
+}
+#link2 a:visited{
+    color:#3f3622;
+}
+#pic1 h2{
+    font-size:140%;
+    margin:1em 0em 1em 0em;
+    font-family: "Arial",sans-serif;
+    font-weight: 500;
+ }
+#pic1 h3{
+    font-size:140%;
+    margin:0.5em 0em 1em 0em;
+    font-family: "Arial",sans-serif;
+    font-weight: 500;
+}
+#pic2 figure{
+    padding-top: 0.5em;
+}
+#pic2 figure div.my_pic2{
+    width: 200px;
+    display: inline-block;
+}
+#link1 a:link{
+    color:#3f3622;
+}
+#link1 a:visited{
+    color:#3f3622;
+}
+em{
+    font-family: "Arial",sans-serif;
+    font-size: 140%;
+    font-weight: 500;
+}
+#text1{
+    margin-top: 0.5em;
+}
+#text1 h2{
+    font-family:"Times New Roman",sans-serif;
+    margin: 0 1em 1em 1em;
+    text-align: justify;
+    font-size: 100%;
+    line-height: 150%;
+
+
+
+}
