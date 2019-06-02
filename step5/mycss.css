@@ -1,0 +1,42 @@
+html, body, header, footer, hgroup, nav, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+
+
+h1{
+    background-color: red;
+    font-size: 150%;
+    font-family: "Arial",sans-serif;
+}
+body{
+    width: 60%;
+    margin: 1em auto 1em auto;
+    border: 1px solid black;
+}
+
+form{
+    text-align: center;
+}
+input[name="value"]{
+    width: 40px;
+}
+input[type="submit"]{
+    width: 7em;
+    margin-top: 1em;
+
+}
+input[name="clear"] {
+    margin-bottom: 1em;
+
+    font-style: inherit;
+}
+p.message{
+    text-align: left;
+
+    margin: 1em 0 1em 0.4em;
+}
